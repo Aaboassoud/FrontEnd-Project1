@@ -4712,7 +4712,7 @@ License - nucleoapp.com/license/
 
 .navbar-transparent .btn-default.btn-fill,
 [class*="bg"] .btn-default.btn-fill {
-  color: #9A9A9A;
+  color: #e70000;
   background-color: #FFFFFF;
   opacity: 0.9;
   filter: alpha(opacity=90);
@@ -6537,7 +6537,7 @@ License - nucleoapp.com/license/
 }
 
 .card-register {
-  background-color: #FF8F5E;
+  background-color: #424242;
   border-radius: 8px;
   color: #fff;
   max-width: 350px;
@@ -8187,8 +8187,8 @@ License - nucleoapp.com/license/
 /*# sourceMappingURL=kit-free.css.map */
 
 .title-1 {
-  font-size: 3em;
-  font-weight: auto;
+  font-size: 5em;
+  font-weight: 700;
   flex-wrap: wrap;
   margin: 0;
   color: #FFFFFF;
@@ -8199,4 +8199,17 @@ License - nucleoapp.com/license/
   background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+.dark-mode {
+  background-color: #0b1011;
+  color: white;
+}
+
+.text-bold {
+  font-weight:400!important;
 }
