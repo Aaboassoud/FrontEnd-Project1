@@ -99,7 +99,6 @@ window.onload = function() {
 
 // ------------------ pages ------------------
 function showHome() {
-    window.location.reload()
     document.getElementById("Home").className = "d-block";
     document.getElementById("Login").className = "d-none";
     document.getElementById("Landing").className ="d-none";
