@@ -17,6 +17,10 @@ function logout() {
 function darkMode() {
     var element = document.body;
     var sections = document.querySelectorAll(".section")
+    var header1 = document.getElementById("header-1")
+    var header2 = document.getElementById("header-2")
+    header1.classList.toggle('text-danger')
+    header2.classList.toggle('text-danger')
     for (const section of sections) {
         section.classList.toggle('section-dark');
       }
